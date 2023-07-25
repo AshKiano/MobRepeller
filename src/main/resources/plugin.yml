@@ -1,0 +1,8 @@
+name: MobRepeller
+version: '${project.version}'
+main: com.ashkiano.mobrepeller.MobRepeller
+author: AshKiano
+api-version: '1.16'
+commands:
+  getarmor:
+    description: Gives the player a piece of mob repelling armor.

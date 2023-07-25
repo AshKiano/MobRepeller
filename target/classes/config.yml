@@ -1,0 +1,27 @@
+# What permission is required to use the /getarmor command?
+getarmor_permission: mobrepeller.getarmor
+
+# Should the plugin push mobs away when the player is wearing a full set of armor?
+enable_mob_pushing: true
+
+# Here you can define which mobs are repelled by the different parts of the armor
+
+# Helmet: Mobs repelled when the player wears a helmet with the correct lore
+helmet:
+  - ZOMBIE
+  - SKELETON
+
+# Chestplate: Mobs repelled when the player wears a chestplate with the correct lore
+chestplate:
+  - CREEPER
+  - ENDERMAN
+
+# Leggings: Mobs repelled when the player wears leggings with the correct lore
+leggings:
+  - SPIDER
+  - CAVE_SPIDER
+
+# Boots: Mobs repelled when the player wears boots with the correct lore
+boots:
+  - WITCH
+  - BLAZE
