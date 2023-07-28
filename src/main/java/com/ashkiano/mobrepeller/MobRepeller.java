@@ -31,6 +31,8 @@ public class MobRepeller extends JavaPlugin implements Listener {
         config = this.getConfig();
 
         Metrics metrics = new Metrics(this, 19206);
+
+        System.out.println("Thank you for using the MobRepeller plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://paypal.me/josefvyskocil");
     }
 
     @Override
